@@ -1,0 +1,13 @@
+2010-06-20 jcw
+
+* Avoid digitalWrite() for chip select, use direct pin I/O for speed.
+
+2010-05-28 jcw
+
+* Added spiInit() to initialize the SPI interface if the RF12 isn't used.
+
+2020-05-21 jcw
+
+* Public release, with an "etherNode.pde" example sketch to use with RF12.
+* This code includes a ENC28J60 driver by Guido Socher and Pascal Stang (GPL2).
+* Expansion character in BufferFiller class changed from "@" to "$".
